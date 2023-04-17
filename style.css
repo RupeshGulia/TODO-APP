@@ -1,0 +1,77 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    background-color: rgba(0, 204, 255, 0.87);
+}
+.container{
+    margin: auto;
+    width: 80%;
+    min-height: 100vh;
+    background-color:rgba(179, 44, 44, 0.2);
+    padding: 30px;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+input,textarea,button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5vmax;
+    cursor:pointer;
+}
+button:hover{
+    background-color: chartreuse;
+    transition: all 1s;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+.task{
+    background-color: rgb(155, 236, 75);
+    color: black;
+    margin: 2vmax;
+    padding: 30px;
+    color: rgb(14, 87, 87);
+    font-size: larger;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.task > div{
+    width: 80%;
+}
+.task span{
+    color: rgb(40, 138, 138);
+}
+.deleteBtn{
+    background-color: crimson;
+    color: aliceblue;
+    width: 30px;
+    height: 40px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.deleteBtn:hover{
+    background-color: blue;
+}
+
+
